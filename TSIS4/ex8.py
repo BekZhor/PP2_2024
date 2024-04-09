@@ -1,10 +1,12 @@
-import math
+def gen(a,b):
+    for i in range(a,b+1):
 
-def find_area(numb, length) :
-    apofema = length/(2*(math.tan(math.pi/numb)))
-    perimeter = length*numb
+        yield i**2
 
-    area = (perimeter/2)*apofema
-    print(area)
+a=int(input())
+b=int(input())
 
-find_area(6,25)
+
+
+for x in gen(a,b):
+    print (x)

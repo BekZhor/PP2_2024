@@ -1,6 +1,11 @@
-import math 
-def trapezodial_area(base1, base2, heigth) :
-    s = ((base1+base2)/2)*heigth
-    print(s)
+def gen(n):
+    for i in range(n):
+        if i%3==0 and i%4==0:
+            yield i
 
-trapezodial_area(5,6,5)
+n=int(input())
+
+
+
+for x in gen(n):
+    print (x)

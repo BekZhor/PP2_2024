@@ -1,11 +1,7 @@
-#ex1
-a = int(input())
+import math
 
-def kvadrat(a) :
-    for i in range(a) :
-        yield pow(i,2)
+print(dir(math))
 
-z = kvadrat(a)
+x=math.radians(15)
 
-for j in kvadrat(a) :
-    print(next(z))
+print(x)

@@ -1,10 +1,11 @@
-import math
+def gen(n):
+    for i in range(n):
+        if i%2==0:
+            yield i
 
-def from_degree_to_radian(degree) :
-    a = 0.0174602666666667
-    radian = a*degree
-    print(radian)
+n=int(input())
 
-p = float(input())
 
-from_degree_to_radian(p)
+
+for x in gen(n):
+    print (x)

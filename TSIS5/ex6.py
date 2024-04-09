@@ -1,8 +1,8 @@
 import re
 
-s = "aavvvvbb abboba 1234a..s569a  ab a_z abbb ab .  b..........bb is presidents n,ame om AMiErIco aha ,,,,, hahahha ++#"
+s = "lkjh fawedf,,vb..b  ab "
 
 
-#ex6
-x = re.sub(r'[ .,]', ':', s)
-print(x)
+
+result = re.sub("[\s,.]",":",s) 
+print(result)
