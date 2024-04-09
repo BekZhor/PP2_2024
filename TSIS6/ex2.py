@@ -1,20 +1,10 @@
-import os
+mystr="sdkcmvGHLMNHJKLMN"
+y=0
+z=0
+for x in mystr:
+    if x.islower() :
+        y+=1
+    else:
+        z+=1
 
-
-os.chdir("C:\\Users\\Acer\\Desktop\\Новая папка (2)")
-
-
-p = os.access("aboba.txt", os.F_OK)
-print(p)
-
-
-p = os.access("aboba.txt", os.R_OK)
-print(p)
-
-
-p = os.access("aboba.txt", os.W_OK)
-print(p)
-
-
-p = os.access("aboba.txt", os.X_OK) 
-print(p)
+print(y,z)

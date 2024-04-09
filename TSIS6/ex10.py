@@ -1,9 +1,10 @@
-h = 0
-c = input(str())
-for i in c :
-    if i >= "A" and i <= "Z" :
-        h = h + 1
-    if i >= "a" and i <= "z" :
-        h = h + 1
+f=open(r"c:\Users\Lenovo\Documents\jkl\op.txt","a")
+mylist=[1,2,3,4,5,6]
+mystr=str(mylist)
 
-print(h)
+f.write(mystr)
+f.close()
+f=open(r"c:\Users\Lenovo\Documents\jkl\op.txt","r")
+for x in f:
+    print(x)
+f.close()

@@ -1,5 +1,6 @@
-import time, math
-sq, t = int(input("Input the value: ")), int(input("Input waiting time: "))
-time.sleep(t / 1000)
-num = math.sqrt(sq)
-print("The square root of", sq, "after", t, "miliseconds is", num)
+f=open(r"c:\Users\Lenovo\Documents\jkl\op.txt","r")
+g=open(r"c:\Users\Lenovo\Documents\jkl\O.txt","a")
+for x in f:
+    g.write(x)
+g.close()
+f.close()

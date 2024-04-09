@@ -1,6 +1,13 @@
-c = input(str())
+import os
+os.chdir(r"c:\Users\Lenovo\Documents\jkl")
+mystr="QWERTYUIOPASDFGHJKLZXCVBNM"
+for  j in range(len(mystr)):
+    h=mystr[j]
+    g="{}.txt"
+    k=g.format(h)
+    f=open(k,"x")
 
-if c == str(c)[::-1] :
-    print("yes")
-else :
-    print("no")
+
+f.close()
+
+

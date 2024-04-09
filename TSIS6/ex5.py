@@ -1,8 +1,6 @@
-import os
+mytuple=("asdf","gfd")
 
-Alphabit = "QWERTYUIOPASDFGHJKLZXCVBNM"
 
-for i in Alphabit :
-    with open(i+".txt", "x") as file :
-         pass
-
+for x in mytuple:
+    if bool(x):
+        print("true")

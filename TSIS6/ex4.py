@@ -1,5 +1,11 @@
-import os
+import datetime
+import math
 
-p = open("aboba.txt", "r") 
-linees = p.readlines()
-print(len(linees))
+x=int(input())
+y=int(input())
+
+z=math.sqrt(x)
+
+h="Square root of {} after {} miliseconds is {}"
+print(h.format(x,y,z))
+

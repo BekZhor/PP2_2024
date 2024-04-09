@@ -1,9 +1,8 @@
-z = 1
-def multi(x) :
-    global z
-    z = z * x
-    return z
+f=open(r"c:\Users\Lenovo\Documents\jkl\op.txt","r")
 
-List = [4,5,6,7]
-list(map(multi, List))
-print(z)
+y=0
+for x in f:
+    y+=1
+    print(y)
+
+f.close()

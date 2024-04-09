@@ -1,4 +1,4 @@
-import os
+mylist=[1,2,3,4,5,6]
 
-os.chdir("C:\\Users\\Acer\\Desktop\\Новая папка (2)")
-print(os.listdir())
+for x in mylist:
+    print (x*2)
